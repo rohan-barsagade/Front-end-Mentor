@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Part - 1 */
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+    background-color: hsl(193, 100%, 96%);;
+    background-image: url("/images/bg-hero-desktop.svg");
+    padding-bottom: 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+    margin-bottom: 2rem;
+}
+
+.logo1 {
+    width: 15rem;
+}
+
+.btn01 {
+    padding: 0.3rem;
+    width: 15rem;
+    background-color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.front {
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ils1 {
+    width: 60rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+.front_para {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-right: 10rem;
+}
+
+.btn02 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem;
+    font-size: 1.4rem;
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.btn {
+    box-shadow: 0px 1px 1rem rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 40px;
+}
+
+/* End of Part - 1 */
+/*Part - 2*/
+
+.container2 {
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+}
+
+.ils {
+    width: 30rem;
+}
+
+.box {    
+    padding: 10rem;
+    margin: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.box p {
+    font-size: 1.5rem;
+    padding-right: 20rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+}
+
+.box2 {
+    justify-content: space-between;
+}
+.box2 p {
+    padding-right: 0;
+}
+#special {
+    width: 40rem;
+}
+
+/* End of Part - 2 */
+
+/* Part - 3*/
+/* End of Part - 3 */
+
+/* Part - 4*/
+
+.footer {
+    border: 2px solid;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: red;
+    padding: 50px 20px 2px 20px;
+}
+
+.container_last {
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    padding: 5px;
+    width: 20rem;
+    align-content: center;
+}
+
+.row span {
+    margin-right: 2rem;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.col1 p{
+    display: flex;
+    align-self: center;
+}
+
+
+.overlap {
+    text-align: center;
+    border: 2px solid  blue;
+    min-width: 30rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: blue;
+    font-size: large;
+    margin-bottom: -50px;
+}
+
+.btn03 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem;
+    font-size: 1.4rem;
+    width: 25rem;
+    margin: 2rem auto;
+    border-radius: 40px;
+}
+
+.copyright {
+    text-align: right;
+}
