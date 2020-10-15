@@ -128,14 +128,16 @@ h1 {
 /* End of Part - 3 */
 
 /* Part - 4*/
-
-.footer {
-    border: 2px solid;
+.masterfooter {
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
-    background-color: red;
+    justify-content: space-between;
+    background-color: #00252E;
     padding: 50px 20px 2px 20px;
+    overflow: visible;
+    margin-top: 70px;
+    color: white;
+    font-size: 1.3rem;
 }
 
 .container_last {
@@ -159,6 +161,10 @@ ul {
     line-height: 20px;
 }
 
+li {
+    margin-bottom: 1rem;
+}
+
 .col1 p{
     display: flex;
     align-self: center;
@@ -167,13 +173,20 @@ ul {
 
 .overlap {
     text-align: center;
-    border: 2px solid  blue;
     min-width: 30rem;
     max-width: 50rem;
     margin: 0 auto;
-    background-color: blue;
+    padding: 20px;
+    background-color: white;
     font-size: large;
-    margin-bottom: -50px;
+    margin-top: -11rem;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    max-height: 12rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem;
+    font-weight: bold;
+    color: black;
 }
 
 .btn03 {
@@ -188,4 +201,55 @@ ul {
 
 .copyright {
     text-align: right;
+}
+
+.icon {
+    margin-right: 25px;
+    font-size: 2rem;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+}
+
+.credit p {
+    margin: 1rem;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+.whitelogo {
+    margin: 2rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.row:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
