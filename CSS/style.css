@@ -350,5 +350,10 @@ a:hover {
     }
     .credit p {
         margin: 0.3rem;
-        font-weight: 800;}
+        font-weight: 800;
+    }
+    .overlap {
+        margin-top -15rem;
+        max-height: 15rem;
+    }
 }
